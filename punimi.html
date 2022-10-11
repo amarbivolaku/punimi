@@ -15,11 +15,20 @@
          
 
   @import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Cinzel:wght@500&family=Kenia&family=Shrikhand&display=swap');
-         
-  
 
+   .fundi{
+   border: 5px solid rgb(255, 0, 0);
+   background-image: url(./OIP\ \(6\).jpg);
+   
+   
+   
+   }
+   input{
+    border: solid red;
+   }
+ 
      h1{
-        border-bottom: 10px double brown; 
+        border-bottom: 10px double rgb(0, 0, 0); 
         padding-bottom: 20px;
       }
       
@@ -35,10 +44,11 @@
         h1{
             font-family: 'Kenia', cursive;
         }
-        ul li{
-            font-family: 'Cinzel', serif;
-        }
-      
+      ul li{
+        color: rgb(255, 102, 0);
+        font-family: 'Shrikhand', cursive;
+
+      }
         
       
      .embelsira{
@@ -49,9 +59,7 @@
         text-align: center;
         
         
-       background-image: url(/tiramisu.jpg);
-       
-       background-size: 500px;
+     
        
        ;
         
@@ -85,13 +93,71 @@
         border: 2px double; color: black;
         background-color: brown;
     }
-   
+
+    
+    
+    .ingreduents{
+        border: 2px solid black;
+         
+        background-position: center center;
+         background-size: cover;    
+         background-image: url(./tiramisu.jpg);
+         backdrop-filter: blur(5px)
+         padding-top: 20px;
+         padding-left: 20px;
+         padding-bottom: 20px;
+       
+    }
 
     a{
         color: brown;
     }
+    fieldset img{
+         animation: myanim 2s ease 0% infinite normal forwards;
+         filter: drop-shadow(11px 17px 12px) rgba(50,14,,6,255) ;
+
+        }
+
+        @keyframes myAnim{
+            
+            from{ 
+                left: 0%;
+                border-radius: 0%;
+            }
+            to{
+               left: 300px; 
+               border-radius: 50%;
+        } 
+
+    } 
+
+    .box{
+        position: absolute;
+        position:absolute;
+       display: block;
         
-  
+        animation: animate 10s ease-in-out 0s infinite;
+        
+    }
+
+   
+    
+     
+    .box img {
+      width: 200px;
+      border-radius: 20px;    
+        
+
+       
+        
+
+    }
+    @keyframes animate{
+        0%{left: -200px;}
+        100%{left: 100%;}
+     }
+
+     
     </style>
 </head>
 <body>
@@ -101,7 +167,8 @@
         <thead>
             <tr>
                 <td>
-                    <h1 id="back">Tiramisu </h1> 
+                    
+                   <h1 id="back" >Tiramisu </h1> 
                     <p   align="right"  > 
                         <a href= #porosia > Online Orders Tiramisu </a></p>
                         <p class="frist">Posted on <i>march 17,2022/From:Amar Bivolaku </i>Posted in <a href="https://www.allrecipes.com">No-bake Recipes</a></p> 
@@ -113,8 +180,8 @@
                        <table align="center">
                         <tr>
                             <td>
-                               <img src="./s1.jpg" width="300" alt="cake">
-                            </td>
+
+                               <img     src="./s1.jpg" width="300" alt="cake">
                             <td>
                                 <img src="./s2.jpg" width="300" alt="foto2">
                             </td>
@@ -127,7 +194,8 @@
                     </tbody>
 
                         <tbody>
-                            <table width="900" align="center" class="tabele">
+                            
+                            <table width="900" align="center">
                             <tr>
                                 <td>
                                 <p>Tiramisu is a timeless no-bake Italian dessert combining espresso-dipped ladyfingers and a creamy lightly sweetened mascarpone cream. This recipe is from the late Maida Heatter and is easily the best homemade tiramisu recipe that I’ve ever tried.</p>
@@ -136,7 +204,7 @@
                                
 
                                     
-                                
+                                         
 
                                  
                                 
@@ -146,7 +214,7 @@
                                 
                             
 
-                                <h3>Ingredients</h3>
+                                <div class="ingreduents" ><h3 >Ingredients</h3>
                                 <ul>
                                     <li>1 and 1/4 cups (300ml) very strongly prepared espresso, warm or room temperature</li>
                                     <li>6 Tablespoons (90ml) Grand Marnier</li>
@@ -159,16 +227,17 @@
                                     <li>1/2 teaspoon pure vanilla extract</li>
                                     <li>1/8 teaspoon salt</li>
                                     <li>unsweetened natural or dutch-process cocoa powder</li>
-                                </ul>
+                                </ul></div>
                                 <p>For those not familiar, Maida Heatter is an icon, especially in the baking world. Dubbed the Queen of Cake, her expansive culinary career included 9 cookbooks, recipes for the Times, a restaurant, and three James Beard Awards. Baker and author Dorie Greenspan once said “Whenever someone tells me they want to learn to bake, I tell them to start with Maida Heatter’s books. That’s what I did.” This latest cookbook is a testament to Maida’s legacy. She passed away only 2 months after this book was published. She leaves behind an incalculable amount of inspiration to bakers and cooks all over the world.</p>
-                                <br/>
-                               
-                                <div class="embelsira">
-                                    <p><strong>Sweetness is the taste of good life</strong></p>
                                 
-                                </div>
-                                <br/>
-                                <br/>
+                               <div class="box"> <img src="tiramisu.jpg" width="450"> </div>
+                                
+
+                        
+                             
+                                
+                            </br>  </br> </br> </br> </br> </br>
+                              
                                 <h3>Common Tiramisu Questions – Answered</h3>
                                 <dl>
                                     <dt><strong>What kind of rum do I use in tiramisu?</strong></dt>
@@ -186,8 +255,7 @@
 
                                      <h2><strong>Video for Tiramisu</strong></h2>
                                      
-                                    <iframe  class="4"  width="450" height="315" src="https://www.youtube.com/embed/87V4nizNJiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe> 
-                                  
+                                   <iframe  class="4"  width="450" height="315" src="https://www.youtube.com/embed/87V4nizNJiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe> 
                                         
                                      
 
@@ -197,9 +265,10 @@
                                 </br> </br>
                                 <div class="home">
                                
-                               <fieldset >
-                                  <legend ><strong id="porosia">Online Orders</strong></legend>
                                
+                                  <strong id="porosia">Online Orders</strong></legend>
+                                
+                             <div class="fundi"> 
                              <input  type="text" name="username" placeholder="Name username" maxlength="12" >
                              
 
@@ -233,14 +302,14 @@
                             </optgroup > 
                           
 
-                            </br> 
+                                           </br> </br>
                              
                    
                                  <input type="number" value="pieces" minlength="0" maxlength="10" placeholder="How many Orders you want"> 
 
-
-
-                                </br> </br>
+                                        </br>
+                                     
+                                
                                 
                                  
 
@@ -248,5 +317,5 @@
                                 </br>
                                     
                                     <iframe   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1506766.3725970227!2d-85.258124599756!3d42.47235014569384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824aee52bb33b31%3A0x203a9be77b8b0101!2sUnited%20States%20Postal%20Service!5e0!3m2!1sen!2s!4v1664139823490!5m2!1sen!2s" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                          
+                            </div>
                              
